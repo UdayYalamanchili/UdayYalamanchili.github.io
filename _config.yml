@@ -192,22 +192,49 @@ content:
 
   - title: Awards & Honours 
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content:  # this will include new lines to allow paragraphs
       Thorogood Star Award (Feb 2020, Oct 2020) |Thorogood Associates
 
   - title: Extra Curriculars
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      - Head of Department | Department of Publicity & Public Relations                                   March 2017 - March 2018
-        - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
-        - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
-      - Head of Video Composition | VFX Club                                                            September 2016 - May 2017
-        - Held regular classes on VFX, video editing to the student community and events during college festivals.
-      - Volunteer | National Service Scheme                                                             August 2016 – August 2017
-        - Identified and helped resolve the needs and problems of the local villages nearby our college.
-        - Actively participated in monthly clean-up and tree plantation drives. 
-      - Design Team Member | Brindavanam Telugu Samithi                                                 September 2016 – May 2017
-        - Responsible for the design, videography and editing of the numerous events held by the association.
+    content:  # this will include new lines to allow paragraphs
+      - layout: left
+        title: Department of Publicity & Public Relations
+        caption: March 2017 - March 2018
+        sub_title: Head of Department                                                                   
+        description: | #
+         - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
+         - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
+      
+      - layout: left
+        title: Department of Publicity & Public Relations
+        caption: March 2017 - March 2018
+        sub_title: Head of Department                                                                   
+        description: | #
+         - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
+         - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
+      
+      - layout: left
+        title: VFX Club
+        caption: September 2016 - May 2017
+        sub_title: Head of Video Composition                                                                   
+        description: | #
+         - Held regular classes on VFX, video editing to the student community and events during college festivals.
+      
+      - layout: left
+        title: National Service Scheme     
+        caption: August 2016 – August 2017
+        sub_title: Volunteer                                                                  
+        description: | #
+         - Identified and helped resolve the needs and problems of the local villages nearby our college.
+         - Actively participated in monthly clean-up and tree plantation drives. 
+      
+      - layout: left
+        title: Brindavanam Telugu Samithi    
+        caption: September 2016 – May 2017
+        sub_title: Design Team Member                                                                  
+        description: | #
+         - Identified and helped resolve the needs and problems of the local villages nearby our college.
 
   - title: Languages
     layout: text
@@ -215,7 +242,7 @@ content:
       English, Telugu, Hindi
 
   - title: A Little More About Me
-    layout: text
+    layout: top-middle
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Football
