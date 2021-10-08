@@ -70,9 +70,9 @@ content:
         quote: >
          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1. Created a repository that stores course information like id, credits, capacity, days, time by using <mark>hash table</mark>.
-          2. User can insert new courses, search and update info like capacity of the course. 
-          3. Used open addressing with double hashing to resolve collisions and came up with a custom hash function to reduce the collisions.
+          - Created a repository that stores course information like id, credits, capacity, days, time by using <mark>hash table</mark>.
+          - User can insert new courses, search and update info like capacity of the course. 
+          - Used open addressing with double hashing to resolve collisions and came up with a custom hash function to reduce the collisions.
 
       - layout: top-middle
         title: Minitorch
@@ -88,8 +88,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1. Ongoing project which is a python re-implementation of the Torch API. The final library can run Torch code.
-          2. Implemented infrastructure like operators, higher order functions, module, Auto-differentiation, backpropagation for scalars.
+          - Ongoing project which is a python re-implementation of the Torch API. The final library can run Torch code.
+          - Implemented infrastructure like operators, higher order functions, module, Auto-differentiation, backpropagation for scalars.
  
       - layout: top-middle
         title: Sentiment Analysis
@@ -105,8 +105,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1. Built a sentiment classifier on the Sentiment140 dataset using MLP classifier and BERT encodings for word representation.
-          2. Implemented a model that achieved 82% testing accuracy.
+          - Built a sentiment classifier on the Sentiment140 dataset using MLP classifier and BERT encodings for word representation.
+          - Implemented a model that achieved 82% testing accuracy.
  
       - layout: top-middle
         title: Portfolio Analysis
@@ -122,8 +122,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1. Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
-          2. Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
+          - Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
+          - Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
 
           
   - title: Experience # Title for the section
@@ -138,9 +138,9 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          1. Delivered end-to-end BI solutions. Skilled in Data Modelling <mark>(ETL)</mark> using Microsoft BI suite (SQL, SSIS and Tabular), Data Visualization and Reporting using tools like Power BI.
-          2. Built models on financial data of a major FMCG firm across their product catalogue.
-          3. Collaborated with clients of a leading tobacco firm, developed ETL interfaces and debugged issues.
+          - Delivered end-to-end BI solutions. Skilled in Data Modelling <mark>(ETL)</mark> using Microsoft BI suite (SQL, SSIS and Tabular), Data Visualization and Reporting using tools like Power BI.
+          - Built models on financial data of a major FMCG firm across their product catalogue.
+          - Collaborated with clients of a leading tobacco firm, developed ETL interfaces and debugged issues.
 
       - layout: left
         title: JPMorgan Chase & Co.
@@ -151,10 +151,10 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          1. Analysed and reported operational errors (System/Manual) in 14 locations across Asia-Pacific.
-          2. Collaborated with Sales, Ops on the on-boarding of clients and implementation generating revenue in millions. 
-          3. Analysed and reported the trends, key statistics on volume/value of Foreign Exchange transactions of 14 APAC countries. ~80% of manual FX transactions in China were automated with the help of these reports which reduced the FX related errors over a quarter by ~90%.
-          4. Real time monitoring and subsequent escalation of transaction queue of Korea market to mitigate potential client impact. 
+          - Analysed and reported operational errors (System/Manual) in 14 locations across Asia-Pacific.
+          - Collaborated with Sales, Ops on the on-boarding of clients and implementation generating revenue in millions. 
+          - Analysed and reported the trends, key statistics on volume/value of Foreign Exchange transactions of 14 APAC countries. ~80% of manual FX transactions in China were automated with the help of these reports which reduced the FX related errors over a quarter by ~90%.
+          - Real time monitoring and subsequent escalation of transaction queue of Korea market to mitigate potential client impact. 
 
 
 
