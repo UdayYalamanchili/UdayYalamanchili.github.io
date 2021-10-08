@@ -181,23 +181,23 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Electives: Object Oriented Programming, Operating Systems, Computer Architecture
   
-   - title: Skills
-     layout: text
-     content: | # this will include new lines to allow paragraphs
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Programming Languages: 
         - C/C++, SQL, Python, VBA, C#, Verilog
       - Tools:
         - Git, PowerBI, MSBI Stack, NumPy, Pandas
 
-   - title: Awards & Honours 
-     layout: text
-     content: | # this will include new lines to allow paragraphs
+  - title: Awards & Honours 
+    layout: text
+    content: | # this will include new lines to allow paragraphs
       Thorogood Star Award (Feb 2020, Oct 2020) |Thorogood Associates
 
-   - title: Extra Curriculars
-     layout: text
-     content: | # this will include new lines to allow paragraphs
+  - title: Extra Curriculars
+    layout: text
+    content: | # this will include new lines to allow paragraphs
       - Head of Department | Department of Publicity & Public Relations                                   March 2017 - March 2018
         - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
         - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
@@ -209,14 +209,14 @@ content:
       - Design Team Member | Brindavanam Telugu Samithi                                                 September 2016 – May 2017
         - Responsible for the design, videography and editing of the numerous events held by the association.
 
-   - title: Languages
-     layout: text
-     content: | # this will include new lines to allow paragraphs
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
       English, Telugu, Hindi
 
-   - title: A Little More About Me
-     layout: text
-     content: | # this will include new lines to allow paragraphs
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Football
       - Gaming
