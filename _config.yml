@@ -68,13 +68,13 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           •		Created a repository that stores course information like id, credits, capacity, days, time by using <mark>hash table</mark>.
           •		User can insert new courses, search and update info like capacity of the course. 
           •		Used open addressing with double hashing to resolve collisions and came up with a custom hash function to reduce the collisions.
 
-     - layout: top-middle
+      - layout: top-middle
         title: Minitorch
         link: github.com/sproogen
         # link_text: Project Website
@@ -91,7 +91,7 @@ content:
           •		Ongoing project which is a python re-implementation of the Torch API. The final library can run Torch code.
           •		Implemented infrastructure like operators, higher order functions, module, Auto-differentiation, backpropagation for scalars.
  
-     - layout: top-middle
+      - layout: top-middle
         title: Sentiment Analysis
         link: github.com/sproogen
         # link_text: Project Website
@@ -108,7 +108,7 @@ content:
           •		Built a sentiment classifier on the Sentiment140 dataset using MLP classifier and BERT encodings for word representation.
           •		Implemented a model that achieved 82% testing accuracy.
  
-     - layout: top-middle
+      - layout: top-middle
         title: Portfolio Analysis
         link: github.com/sproogen
         # link_text: Project Website
@@ -172,7 +172,7 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
        
-     - layout: left
+      - layout: left
         title: Birla Institute Of Technology & Science
         caption: 2015 - 2019
         sub_title: B.E.(Hons.) Electronics & Communication
@@ -182,25 +182,22 @@ content:
           - Electives: Object Oriented Programming, Operating Systems, Computer Architecture
   
    - title: Skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+     layout: text
+     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Programming Languages: 
         - C/C++, SQL, Python, VBA, C#, Verilog
       - Tools:
         - Git, PowerBI, MSBI Stack, NumPy, Pandas
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-  
    - title: Awards & Honours 
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+     layout: text
+     content: | # this will include new lines to allow paragraphs
       Thorogood Star Award (Feb 2020, Oct 2020) |Thorogood Associates
 
    - title: Extra Curriculars
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+     layout: text
+     content: | # this will include new lines to allow paragraphs
       - Head of Department | Department of Publicity & Public Relations                                   March 2017 - March 2018
         - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
         - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
@@ -213,13 +210,13 @@ content:
         - Responsible for the design, videography and editing of the numerous events held by the association.
 
    - title: Languages
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+     layout: text
+     content: | # this will include new lines to allow paragraphs
       English, Telugu, Hindi
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+   - title: A Little More About Me
+     layout: text
+     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Football
       - Gaming
