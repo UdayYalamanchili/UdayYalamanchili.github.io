@@ -70,9 +70,9 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1.	Created a repository that stores course information like id, credits, capacity, days, time by using <mark>hash table</mark>.
-          2.	User can insert new courses, search and update info like capacity of the course. 
-          3.  Used open addressing with double hashing to resolve collisions and came up with a custom hash function to reduce the collisions.
+          •		Created a repository that stores course information like id, credits, capacity, days, time by using <mark>hash table</mark>.
+          •		User can insert new courses, search and update info like capacity of the course. 
+          •		Used open addressing with double hashing to resolve collisions and came up with a custom hash function to reduce the collisions.
 
      - layout: top-middle
         title: Minitorch
@@ -88,8 +88,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1.  Ongoing project which is a python re-implementation of the Torch API. The final library can run Torch code.
-          2.  Implemented infrastructure like operators, higher order functions, module, Auto-differentiation, backpropagation for scalars.
+          •		Ongoing project which is a python re-implementation of the Torch API. The final library can run Torch code.
+          •		Implemented infrastructure like operators, higher order functions, module, Auto-differentiation, backpropagation for scalars.
  
      - layout: top-middle
         title: Sentiment Analysis
@@ -105,8 +105,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1.  Built a sentiment classifier on the Sentiment140 dataset using MLP classifier and BERT encodings for word representation.
-          2.  Implemented a model that achieved 82% testing accuracy.
+          •		Built a sentiment classifier on the Sentiment140 dataset using MLP classifier and BERT encodings for word representation.
+          •		Implemented a model that achieved 82% testing accuracy.
  
      - layout: top-middle
         title: Portfolio Analysis
@@ -122,8 +122,8 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          1.  Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
-          2.  Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
+          •		Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
+          •		Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
 
           
   - title: Experience # Title for the section
@@ -138,9 +138,9 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          1.  Delivered end-to-end BI solutions. Skilled in Data Modelling <mark>(ETL)</mark> using Microsoft BI suite (SQL, SSIS and Tabular), Data Visualization and Reporting using tools like Power BI.
-          2.  Built models on financial data of a major FMCG firm across their product catalogue.
-          3.  Collaborated with clients of a leading tobacco firm, developed ETL interfaces and debugged issues.
+          •		Delivered end-to-end BI solutions. Skilled in Data Modelling <mark>(ETL)</mark> using Microsoft BI suite (SQL, SSIS and Tabular), Data Visualization and Reporting using tools like Power BI.
+          •		Built models on financial data of a major FMCG firm across their product catalogue.
+          •		Collaborated with clients of a leading tobacco firm, developed ETL interfaces and debugged issues.
 
       - layout: left
         title: JPMorgan Chase & Co.
@@ -151,10 +151,10 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          1.  Analysed and reported operational errors (System/Manual) in 14 locations across Asia-Pacific.
-          2.  Collaborated with Sales, Ops on the on-boarding of clients and implementation generating revenue in millions. 
-          3.  Analysed and reported the trends, key statistics on volume/value of Foreign Exchange transactions of 14 APAC countries. ~80% of manual FX transactions in China were automated with the help of these reports which reduced the FX related errors over a quarter by ~90%.
-          4.  Real time monitoring and subsequent escalation of transaction queue of Korea market to mitigate potential client impact. 
+          - Analysed and reported operational errors (System/Manual) in 14 locations across Asia-Pacific.
+          - Collaborated with Sales, Ops on the on-boarding of clients and implementation generating revenue in millions. 
+          - Analysed and reported the trends, key statistics on volume/value of Foreign Exchange transactions of 14 APAC countries. ~80% of manual FX transactions in China were automated with the help of these reports which reduced the FX related errors over a quarter by ~90%.
+          - Real time monitoring and subsequent escalation of transaction queue of Korea market to mitigate potential client impact. 
 
 
 
@@ -171,6 +171,51 @@ content:
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+       
+     - layout: left
+        title: Birla Institute Of Technology & Science
+        caption: 2015 - 2019
+        sub_title: B.E.(Hons.) Electronics & Communication
+        quote: >
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Electives: Object Oriented Programming, Operating Systems, Computer Architecture
+  
+   - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Programming Languages: 
+        - C/C++, SQL, Python, VBA, C#, Verilog
+      - Tools:
+        - Git, PowerBI, MSBI Stack, NumPy, Pandas
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  
+   - title: Awards & Honours 
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Thorogood Star Award (Feb 2020, Oct 2020) |Thorogood Associates
+
+   - title: Extra Curriculars
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Head of Department | Department of Publicity & Public Relations                                   March 2017 - March 2018
+        - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
+        - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
+      - Head of Video Composition | VFX Club                                                            September 2016 - May 2017
+        - Held regular classes on VFX, video editing to the student community and events during college festivals.
+      - Volunteer | National Service Scheme                                                             August 2016 – August 2017
+        - Identified and helped resolve the needs and problems of the local villages nearby our college.
+        - Actively participated in monthly clean-up and tree plantation drives. 
+      - Design Team Member | Brindavanam Telugu Samithi                                                 September 2016 – May 2017
+        - Responsible for the design, videography and editing of the numerous events held by the association.
+
+   - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      English, Telugu, Hindi
 
   - title: A Little More About Me
     layout: text
