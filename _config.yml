@@ -189,7 +189,6 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-# Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
       - Programming Languages: 
         - C/C++, Python, Java, SQL, VBA, MATLAB, Verilog
       - Web Technologies and Frameworks: 
