@@ -71,11 +71,11 @@ content:
          Clone and click a picture of your handwritten digit.
         description: | # this will include new lines to allow paragraphs
           - Developed an android application to click pictures and classify digits using a neural network trained on modified MNIST dataset to achieve an accuracy of 97%.
-          - Utilized distributed computing with multiple servers to balance the load during prediction. Technologies: Java, Android Studio, Flask. <mark>hash table</mark>.
+          - Utilized distributed computing with multiple servers to balance the load during prediction. Technologies: Java, Android Studio, Flask.
 
       - layout: top-middle
         title: Zero-shot Common Sense Question Answering
-        link: github.com/sproogen
+        # link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -137,7 +137,7 @@ content:
         sub_title: Software Engineer (Data & Analytics)
         caption: July 2019 - July 2021
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          First job right out of college. Went from being the junior most memeber of the team to leading teams, as a tech lead.
         description: | # this will include new lines to allow paragraphs
           - Programmed Extract-Transform-Load (ETL) data pipelines and dashboards to bring 100% visibility to a FMCG giant's sustainability efforts. Showcased metrics on plastics across 40 countries handling TBs of raw data.
           - Developed a time-sheet portal to allow over 150 in-house consultants to log schedules, entries, and time-offs.
@@ -156,7 +156,7 @@ content:
         sub_title: Data Analyst
         caption: July 2018 - December 2018
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Senior year internship. Gained domain knowledge in banking.
         description: | # this will include new lines to allow paragraphs
           - Analysed and reported operational errors (System/Manual) in 14 locations across Asia-Pacific.
           - Collaborated with Sales, Ops on the on-boarding of clients and implementation generating revenue in millions. 
@@ -240,10 +240,6 @@ content:
       - Football
       - Gaming
       - Exploring new places!
-      # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      # Look at this cool image  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
