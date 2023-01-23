@@ -48,9 +48,9 @@ google_analytics: "UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a computer science graduate student specializing in machine learning, set to graduate in Summer 2023. In addition to my academic background, I have 2 years of professional experience as a software engineer, working on data-intensive applications. As a software engineer, I have a strong understanding of data structures and algorithms, as well as experience with programming languages such as Python and Java. As a machine learning engineer, I have experience with popular frameworks such as TensorFlow and PyTorch, and have worked on projects involving natural language processing and computer vision. I am a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems.
+  I am a computer science graduate student specializing in machine learning, set to graduate in Summer 2023. Prior to my masters, I worked for 2 years as a software engineer predominantly working in data, analytics and data-intensive applications in general. As a software engineer, I have a strong understanding of data structures and algorithms, as well as experience with programming languages such as C++ and Python. I have experience with popular frameworks such as TensorFlow and PyTorch, and have worked on projects involving natural language processing and computer vision. Past semester I learnt how to develop android applications from scratch. I am a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems.
 
-  I am most skilled in: <mark>Python</mark> and <mark>C++</mark>
+  I am most skilled in: <mark>Solving machine learning problems</mark> and <mark>C++</mark>
 
 content:
   - title: Projects # Title for the section
@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: Image Classification - Android
-        link: github.com/sproogen
+        link: https://github.com/UdayYalamanchili/Photog
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -68,7 +68,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+         Clone and click a picture of your handwritten digit.
         description: | # this will include new lines to allow paragraphs
           - Developed an android application to click pictures and classify digits using a neural network trained on modified MNIST dataset to achieve an accuracy of 97%.
           - Utilized distributed computing with multiple servers to balance the load during prediction. Technologies: Java, Android Studio, Flask. <mark>hash table</mark>.
@@ -84,8 +84,8 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           - Collaborated in a team of 4 to build a model leveraging unsupervised learning i.e., no human labeled training data and directly evaluated on a testing dataset.
           - Extracted noun groups by filtering out the 'CNN Daily mail' dataset. Used a T5 model pre-trained on the 'Common-Gen' dataset to construct sentences, leveraging the extracted noun groups.
@@ -103,7 +103,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Get your caption out of the bag.
         description: | # this will include new lines to allow paragraphs
           - Built an image captioning model using Attention, a computer vision technique to produce richer and descriptive captions for a given image. Inputs were encoded using VGG 16.
           - Implemented Long Short-Term Memory architecture for decoder to generate a caption word by word and visualize, as the model shifts its gaze across various parts of the image while trying to generate the next word.
@@ -172,8 +172,8 @@ content:
         title: Arizona State University
         caption: 2021 - 2023
         sub_title: Master of Science, Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           Courses: Data Structures and Algorithms, Natural Language Processing, Machine Learning, Data Mining, Mobile Computing, Artificial Intelligence.
        
@@ -181,15 +181,15 @@ content:
         title: Birla Institute Of Technology & Science, Pilani
         caption: 2015 - 2019
         sub_title: Bachelor of Engineering (Hons.) Electronics & Communication
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           - Courses: Object Oriented Programming, Operating Systems, Computer Architecture
   
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
+      # Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
       - Programming Languages: 
         - C/C++, Python, Java, SQL, VBA, MATLAB, Verilog
       - Web Technologies and Frameworks: 
@@ -201,7 +201,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Thorogood Star Award (Feb 2020, Oct 2020), Thorogood Associates
-      - Awarded for the best performer across the company in that month.
+      - Awarded for the best performer across the company during the month.
 
   - title: Extra Curriculars
     layout: text
@@ -213,14 +213,6 @@ content:
         description: | #
          - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
          - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
-      
-#       - layout: left
-#         title: Department of Publicity & Public Relations
-#         caption: March 2017 - March 2018
-#         sub_title: Head of Department                                                                   
-#         description: | #
-#          - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
-#          - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
       
       - layout: left
         title: VFX Club
@@ -237,30 +229,22 @@ content:
          - Identified and helped resolve the needs and problems of the local villages nearby our college.
          - Actively participated in monthly clean-up and tree plantation drives. 
       
-#       - layout: left
-#         title: Brindavanam Telugu Samithi    
-#         caption: September 2016 – May 2017
-#         sub_title: Design Team Member                                                                  
-#         description: | #
-#          - Identified and helped resolve the needs and problems of the local villages nearby our college.
-
   - title: Languages
     layout: text
     content: | # this will include new lines to allow paragraphs
       English, Telugu, Hindi
   
-  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
       - Football
       - Gaming
       - Exploring new places!
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      # Look at this cool image  
+      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
