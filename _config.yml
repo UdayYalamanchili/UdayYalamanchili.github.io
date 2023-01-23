@@ -7,21 +7,21 @@ version: 2
 
 # Personal info
 name: Uday Yalamanchili
-title: Senior Network System Administrator
+title: Software Engineer
 email: yalamanchiliudaysankar@gmail.com
 website: https://udayyalamanchili.github.io
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
-twitter_username: facespics
+# twitter_username: facespics
 github_username:  UdayYalamanchili
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: sleety_basher
+# instagram_username: sleety_basher
 linkedin_username: uday-y
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -30,34 +30,34 @@ linkedin_username: uday-y
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+gtm: "GTM-0000000"
+gtag: "UA-00000000-0"
+google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Uday and I'm a graduate student studying computer science at Arizona State University. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I am a computer science graduate student specializing in machine learning, set to graduate in Summer 2023. In addition to my academic background, I have 2 years of professional experience as a software engineer, working on data-intensive applications. As a software engineer, I have a strong understanding of data structures and algorithms, as well as experience with programming languages such as Python and Java. As a machine learning engineer, I have experience with popular frameworks such as TensorFlow and PyTorch, and have worked on projects involving natural language processing and computer vision. I am a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Python</mark> and <mark>C++</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Course Information Repository
+        title: Image Classification - Android
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
@@ -70,12 +70,11 @@ content:
         quote: >
          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - Created a repository that stores course information like id, credits, capacity, days, time by using <mark>hash table</mark>.
-          - User can insert new courses, search and update info like capacity of the course. 
-          - Used open addressing with double hashing to resolve collisions and came up with a custom hash function to reduce the collisions.
+          - Developed an android application to click pictures and classify digits using a neural network trained on modified MNIST dataset to achieve an accuracy of 97%.
+          - Utilized distributed computing with multiple servers to balance the load during prediction. Technologies: Java, Android Studio, Flask. <mark>hash table</mark>.
 
       - layout: top-middle
-        title: Minitorch
+        title: Zero-shot Common Sense Question Answering
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
@@ -88,12 +87,13 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - Ongoing project which is a python re-implementation of the Torch API. The final library can run Torch code.
-          - Implemented infrastructure like operators, higher order functions, module, Auto-differentiation, backpropagation for scalars.
+          - Collaborated in a team of 4 to build a model leveraging unsupervised learning i.e., no human labeled training data and directly evaluated on a testing dataset.
+          - Extracted noun groups by filtering out the 'CNN Daily mail' dataset. Used a T5 model pre-trained on the 'Common-Gen' dataset to construct sentences, leveraging the extracted noun groups.
+          - Implemented a rules-based approach to create a synthetic dataset using the sentences and train a multiple-choice QA model. Evaluated it on Common Sense QA dataset (PyTorch). Achieved accuracy of 65% percent.
  
       - layout: top-middle
-        title: Sentiment Analysis
-        link: github.com/sproogen
+        title: Neural Image Caption Generator
+        link: github.com/UdayYalamanchili/Image-Caption-Generator
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -105,25 +105,26 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - Built a sentiment classifier on the Sentiment140 dataset using MLP classifier and BERT encodings for word representation.
-          - Implemented a model that achieved 82% testing accuracy.
+          - Built an image captioning model using Attention, a computer vision technique to produce richer and descriptive captions for a given image. Inputs were encoded using VGG 16.
+          - Implemented Long Short-Term Memory architecture for decoder to generate a caption word by word and visualize, as the model shifts its gaze across various parts of the image while trying to generate the next word.
+
  
-      - layout: top-middle
-        title: Portfolio Analysis
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
-          - Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
+#       - layout: top-middle
+#         title: Portfolio Analysis
+#         link: github.com/sproogen
+#         # link_text: Project Website
+#         additional_links:
+#           - title:  sproogen/modern-resume-theme
+#             icon: fab fa-github
+#             url: github.com/sproogen/modern-resume-theme
+#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#           #   icon: fab fa-github
+#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#         quote: >
+#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#         description: | # this will include new lines to allow paragraphs
+#           - Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
+#           - Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
 
           
   - title: Experience # Title for the section
@@ -133,20 +134,26 @@ content:
         title: Thorogood Associates
         link: https://www.thorogood.com
         # link_text: boringcompany.com
-        sub_title: Business Intelligence & Analytics Consultant
+        sub_title: Software Engineer (Data & Analytics)
         caption: July 2019 - July 2021
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          - Delivered end-to-end BI solutions. Skilled in Data Modelling <mark>(ETL)</mark> using Microsoft BI suite (SQL, SSIS and Tabular), Data Visualization and Reporting using tools like Power BI.
-          - Built models on financial data of a major FMCG firm across their product catalogue.
-          - Collaborated with clients of a leading tobacco firm, developed ETL interfaces and debugged issues.
+          - Programmed Extract-Transform-Load (ETL) data pipelines and dashboards to bring 100% visibility to a FMCG giant's sustainability efforts. Showcased metrics on plastics across 40 countries handling TBs of raw data.
+          - Developed a time-sheet portal to allow over 150 in-house consultants to log schedules, entries, and time-offs.
+          - Engineered an automated rewards system for a leading tobacco firm (UK), cutting down time spent in rewards distribution to its partners by 70%.
+          - Fixed client's faulty data pipelines to deal with irregular data loads during covid-19, increasing the resolution rate of revenue teams by 20%.
+          - Led client meetings, communicated, and interpreted requirements to provide efficient solutions to business problems.
+          - Deployed code monthly while debugging and providing quick fixes for major issues during UAT.
+          - Mentored 4 new hires across two support projects as a tech lead.
+          - Used Python, MSBI, AWS S3, T-SQL, Angular, Django while following DevOps and agile methodology.
+
 
       - layout: left
         title: JPMorgan Chase & Co.
         link: https://www.jpmorganchase.com
         # link_text: boringcompany.com
-        sub_title: Analyst
+        sub_title: Data Analyst
         caption: July 2018 - December 2018
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -164,36 +171,37 @@ content:
       - layout: left
         title: Arizona State University
         caption: 2021 - 2023
-        sub_title: MS Computer Science
+        sub_title: Master of Science, Computer Science
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Courses: Data Structures and Algorithms, Natural Language Processing, Machine Learning, Data Mining, Mobile Computing, Artificial Intelligence.
        
       - layout: left
-        title: Birla Institute Of Technology & Science
+        title: Birla Institute Of Technology & Science, Pilani
         caption: 2015 - 2019
-        sub_title: B.E.(Hons.) Electronics & Communication
+        sub_title: Bachelor of Engineering (Hons.) Electronics & Communication
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          - Electives: Object Oriented Programming, Operating Systems, Computer Architecture
+          - Courses: Object Oriented Programming, Operating Systems, Computer Architecture
   
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
       - Programming Languages: 
-        - C/C++, SQL, Python, VBA, C#, Verilog
+        - C/C++, Python, Java, SQL, VBA, MATLAB, Verilog
+      - Web Technologies and Frameworks: 
+        - HTML, CSS, Angular, Flask, scikit-learn, PyTorch, TensorFlow
       - Tools:
-        - Git, PowerBI, MSBI Stack, NumPy, Pandas
+        - Git, Azure DevOps, T-SQL, AWS, Heroku, PowerBI, MSBI, Android
 
   - title: Awards & Honours 
     layout: text
-    content:  # this will include new lines to allow paragraphs
-      Thorogood Star Award (Feb 2020, Oct 2020) |Thorogood Associates
+    content: | # this will include new lines to allow paragraphs
+      Thorogood Star Award (Feb 2020, Oct 2020), Thorogood Associates
+      - Awarded for the best performer across the company in that month.
 
   - title: Extra Curriculars
     layout: text
@@ -206,13 +214,13 @@ content:
          - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
          - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
       
-      - layout: left
-        title: Department of Publicity & Public Relations
-        caption: March 2017 - March 2018
-        sub_title: Head of Department                                                                   
-        description: | #
-         - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
-         - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
+#       - layout: left
+#         title: Department of Publicity & Public Relations
+#         caption: March 2017 - March 2018
+#         sub_title: Head of Department                                                                   
+#         description: | #
+#          - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
+#          - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
       
       - layout: left
         title: VFX Club
@@ -229,12 +237,12 @@ content:
          - Identified and helped resolve the needs and problems of the local villages nearby our college.
          - Actively participated in monthly clean-up and tree plantation drives. 
       
-      - layout: left
-        title: Brindavanam Telugu Samithi    
-        caption: September 2016 – May 2017
-        sub_title: Design Team Member                                                                  
-        description: | #
-         - Identified and helped resolve the needs and problems of the local villages nearby our college.
+#       - layout: left
+#         title: Brindavanam Telugu Samithi    
+#         caption: September 2016 – May 2017
+#         sub_title: Design Team Member                                                                  
+#         description: | #
+#          - Identified and helped resolve the needs and problems of the local villages nearby our college.
 
   - title: Languages
     layout: text
