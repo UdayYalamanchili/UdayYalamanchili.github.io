@@ -48,9 +48,9 @@ google_analytics: "UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a computer science graduate student specializing in machine learning, set to graduate in Summer 2023. Prior to my masters, I worked for 2 years as a software engineer predominantly working in data, analytics and data-intensive applications in general. As a software engineer, I have a strong understanding of data structures and algorithms, as well as experience with programming languages such as C++ and Python. I have experience with popular frameworks such as TensorFlow and PyTorch, and have worked on projects involving natural language processing and computer vision. Past semester I learnt how to develop android applications from scratch. I am a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems.
+  Software Engineer with two years of experience building data intensive applications. Graduated with a masters in computer science specializing in machine learning and its applications. Strong knowledge of data structures and algorithms, proficient in C++ and Python. Hands-on experience with popular frameworks such as TensorFlow, PyTorch as well as android, having worked on projects in natural language processing and computer vision. I'm a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems. Currently a senior software engineer in the Dev Tools group at Microchip Technology. 
 
-  I am most skilled in: <mark>Solving machine learning problems</mark> and <mark>C++</mark>
+  I am most skilled in: <mark>Solving machine learning problems</mark> , <mark>C++</mark> and <mark>Python</mark>
 
 content:
   - title: Projects # Title for the section
@@ -131,6 +131,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Microchip Technology
+        link: http://microchip.com
+        # link_text: boringcompany.com
+        sub_title: Senior Software Engineer
+        caption: July 2023 - Present
+        quote: >
+          First job post masters degree as a senior engineer with lots of responsibilites
+        description: | # this will include new lines to allow paragraphs
+          - Used Python, Java, C, MySQL, Jenkins.
+          
+      - layout: left
         title: Thorogood Associates
         link: https://www.thorogood.com
         # link_text: boringcompany.com
@@ -139,14 +150,11 @@ content:
         quote: >
           First job right out of college. Went from being the junior most memeber of the team to leading teams, as a tech lead.
         description: | # this will include new lines to allow paragraphs
-          - Programmed Extract-Transform-Load (ETL) data pipelines and dashboards to bring 100% visibility to a FMCG giant's sustainability efforts. Showcased metrics on plastics across 40 countries handling TBs of raw data.
-          - Developed a time-sheet portal to allow over 150 in-house consultants to log schedules, entries, and time-offs.
-          - Engineered an automated rewards system for a leading tobacco firm (UK), cutting down time spent in rewards distribution to its partners by 70%.
+          - Served as Tech lead across 2 projects with experience in leading client meetings, communicating, and interpreting requirements to provide efficient solutions to business problems. Mentored 4 new hires in this role.
+          - Programmed robust ETL pipelines which could handle TBs of raw data. Used data processing and visualization techniques to identify patterns and trends to bring 100% visibility to Unilever’s sustainability efforts across 40 countries. Used Python, Apache Spark, T-SQL, MSBI and PowerBI.
+          - Developed a time-sheet website used by over 150 Thorogood consultants to log schedules, entries, and time-offs with ease. Used Typescript, Angular for frontend and Django, T-SQL for RESTful APIs, backend.
+          - Engineered an automated rewards system for Imperial Tobacco, cutting down time spent in rewards distribution to its partners by 70%. Performed cloud migration of the existing system onto Azure.
           - Fixed client's faulty data pipelines to deal with irregular data loads during covid-19, increasing the resolution rate of revenue teams by 20%.
-          - Led client meetings, communicated, and interpreted requirements to provide efficient solutions to business problems.
-          - Deployed code monthly while debugging and providing quick fixes for major issues during UAT.
-          - Mentored 4 new hires across two support projects as a tech lead.
-          - Used Python, MSBI, AWS S3, T-SQL, Angular, Django while following DevOps and agile methodology.
 
 
       - layout: left
@@ -190,11 +198,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Programming Languages: 
-        - C/C++, Python, Java, SQL, VBA, MATLAB, Verilog
+        - C/C++, Python, Java, SQL, Typescript, MATLAB
       - Web Technologies and Frameworks: 
-        - HTML, CSS, Angular, Flask, scikit-learn, PyTorch, TensorFlow
+        - HTML, CSS, Angular, Flask, Django, scikit-learn, PyTorch, TensorFlow
       - Tools:
-        - Git, Azure DevOps, T-SQL, AWS, Heroku, PowerBI, MSBI, Android
+        - Git, Azure DevOps, T-SQL, MySQL, AWS, Apache Spark, PowerBI, MSBI, Android
 
   - title: Awards & Honours 
     layout: text
