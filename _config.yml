@@ -48,7 +48,7 @@ google_analytics: "UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Software Engineer with two years of experience building data intensive applications. Graduated with a masters in computer science specializing in machine learning and its applications. Strong knowledge of data structures and algorithms, proficient in C++ and Python. Hands-on experience with popular frameworks such as TensorFlow, PyTorch as well as android, having worked on projects in natural language processing and computer vision. I'm a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems. Currently a senior software engineer in the Dev Tools group at Microchip Technology. 
+  Software Engineer with around 3 years of experience building data intensive applications. Graduated with a masters in computer science specializing in machine learning and its applications. Strong knowledge of data structures and algorithms, proficient in C++ and Python. Hands-on experience with popular frameworks such as TensorFlow, PyTorch having worked on projects in natural language processing and computer vision. I'm a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems. Currently a senior software engineer in the Dev Tools group at Microchip Technology. 
 
   I am most skilled in: <mark>Solving machine learning problems</mark> , <mark>C++</mark> and <mark>Python</mark>
 
@@ -70,8 +70,9 @@ content:
         quote: >
          Clone and click a picture of your handwritten digit.
         description: | # this will include new lines to allow paragraphs
-          - Developed an android application to click pictures and classify digits using a neural network trained on modified MNIST dataset to achieve an accuracy of 97%.
-          - Utilized distributed computing with multiple servers to balance the load during prediction. Technologies: Java, Android Studio, Flask.
+          - Developed an android application and a set of Flask servers to click pictures and classify handwritten digits using a convolutional neural network trained on modified MNIST dataset, achieving an accuracy of 97%.
+          - Implemented an image processing pipeline to filter the image, apply precise thresholding and generate accurate contours around the digit with an accuracy of 95%.
+          - Utilized mobile-offloading, a distributed edge-based computing technique to balance the workload during prediction by classifying parts of the input image sent by the client application to the nearby flask servers.
 
       - layout: top-middle
         title: Zero-shot Common Sense Question Answering
@@ -139,7 +140,9 @@ content:
         quote: >
           First job post masters degree as a senior engineer with lots of responsibilites
         description: | # this will include new lines to allow paragraphs
-          - Used Python, Java, C, MySQL, Jenkins.
+          - Developed scripts to create, edit and get status of JIRA issues using JIRA API. Added to the existing Jenkins pipeline to automatically flag and categorize the errors in the database, based on status. Reduced time spent on analysis and testing by 20%. Also programmed a GUI interface using PyQt library to quickly get the status and summary of the required issue.
+          - Developed and supported Jenkins pipelines for CI/CD processes and running the existing Java test suite for Microchip’s IDE MPLAB X. Maintained an internal webpage which can build test suites and display the results (PHP, JS, MySQL).
+          - Built a Java-based utility interfacing with MOATB (Mother of all boards) server, streamlining device search and connection processes across multiple systems. Improved testing workflow by cutting down ~15% of the time spent.
           
       - layout: left
         title: Thorogood Associates
@@ -202,7 +205,7 @@ content:
       - Web Technologies and Frameworks: 
         - HTML, CSS, Angular, Flask, Django, scikit-learn, PyTorch, TensorFlow
       - Tools:
-        - Git, Azure DevOps, T-SQL, MySQL, AWS, Apache Spark, PowerBI, MSBI, Android
+        - Git, AWS, Apache Spark, T-SQL, MySQL, Jenkins, Docker, Kubernetes, Azure DevOps, Android, PowerBI, MSBI
 
   - title: Awards & Honours 
     layout: text
