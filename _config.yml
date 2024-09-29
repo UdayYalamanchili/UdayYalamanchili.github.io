@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Uday Yalamanchili
-title: Software Engineer
+title: Machine Learning Engineer
 email: yalamanchiliudaysankar@gmail.com
 website: https://udayyalamanchili.github.io
 
@@ -15,246 +15,151 @@ website: https://udayyalamanchili.github.io
 darkmode: true
 
 # Social links
-# twitter_username: facespics
-github_username:  UdayYalamanchili
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: sleety_basher
+github_username: UdayYalamanchili
 linkedin_username: uday-y
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 gtm: "GTM-0000000"
 gtag: "UA-00000000-0"
 google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Software Engineer with around 3 years of experience building data intensive applications. Graduated with a masters in computer science specializing in machine learning and its applications. Strong knowledge of data structures and algorithms, proficient in C++ and Python. Hands-on experience with popular frameworks such as TensorFlow, PyTorch having worked on projects in natural language processing and computer vision. I'm a motivated and hardworking individual, with a passion for using my technical skills to solve real-world problems. Currently a senior software engineer in the Dev Tools group at Microchip Technology. 
+about_content: | 
+  Software Engineer with over 3 years of experience developing data-driven applications and deploying ML models. 
+  I specialize in building scalable data pipelines and backend systems while leveraging advanced machine learning techniques to deliver impactful results. 
+  My technical expertise includes Python, Java, and popular frameworks like TensorFlow and PyTorch, with hands-on experience in both cloud environments and containerization. 
+  Currently, I work as a Senior Software Engineer at Microchip Technology, focusing on building software, ML-based tools and improving device integration.
 
-  I am most skilled in: <mark>Solving machine learning problems</mark> , <mark>C++</mark> and <mark>Python</mark>
+  I am most skilled in: <mark>Machine Learning</mark>, <mark>Data Engineering</mark>, and <mark>Backend Development</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Image Classification - Android
+        title: Mobile Offloading Android Application
         link: https://github.com/UdayYalamanchili/Photog
-        # link_text: Project Website
         additional_links:
-          - title:  Image Classification - Android
+          - title: Image Classification - Android
             icon: fab fa-github
             url: https://github.com/UdayYalamanchili/Photog
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-         Clone and click a picture of your handwritten digit.
-        description: | # this will include new lines to allow paragraphs
-          - Developed an android application and a set of Flask servers to click pictures and classify handwritten digits using a convolutional neural network trained on modified MNIST dataset, achieving an accuracy of 97%.
-          - Implemented an image processing pipeline to filter the image, apply precise thresholding and generate accurate contours around the digit with an accuracy of 95%.
-          - Utilized mobile-offloading, a distributed edge-based computing technique to balance the workload during prediction by classifying parts of the input image sent by the client application to the nearby flask servers.
+        description: |
+          - Developed an Android application with Flask servers for image capture and classification of handwritten digits using a CNN model, achieving 97% accuracy.
+          - Implemented an image processing pipeline for filtering, thresholding, and contour detection, optimizing computational load through mobile offloading.
 
-      - layout: top-middle
-        title: Zero-shot Common Sense Question Answering
-        # link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  Image Classification - Android
-            icon: fab fa-github
-            url: https://github.com/UdayYalamanchili/
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - Collaborated in a team of 4 to build a model leveraging unsupervised learning i.e., no human labeled training data and directly evaluated on a testing dataset.
-          - Extracted noun groups by filtering out the 'CNN Daily mail' dataset. Used a T5 model pre-trained on the 'Common-Gen' dataset to construct sentences, leveraging the extracted noun groups.
-          - Implemented a rules-based approach to create a synthetic dataset using the sentences and train a multiple-choice QA model. Evaluated it on Common Sense QA dataset (PyTorch). Achieved accuracy of 65% percent.
- 
       - layout: top-middle
         title: Neural Image Caption Generator
-        link: github.com/UdayYalamanchili/Image-Caption-Generator
-        # link_text: Project Website
         additional_links:
-          - title:  Neural Image Caption Generator
+          - title: Neural Image Caption Generator
             icon: fab fa-github
-            url: github.com/UdayYalamanchili/Image-Caption-Generator
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Get your caption out of the bag.
-        description: | # this will include new lines to allow paragraphs
-          - Built an image captioning model using Attention, a computer vision technique to produce richer and descriptive captions for a given image. Inputs were encoded using VGG 16.
-          - Implemented Long Short-Term Memory architecture for decoder to generate a caption word by word and visualize, as the model shifts its gaze across various parts of the image while trying to generate the next word.
+            url: https://github.com/UdayYalamanchili/Image-Caption-Generator
+        description: |
+          - Built an image captioning model utilizing an Attention mechanism to generate rich, descriptive captions for images.
+          - Encoded inputs using VGG16 and implemented an LSTM architecture for the decoder, visualizing model focus during caption generation.
 
- 
-#       - layout: top-middle
-#         title: Portfolio Analysis
-#         link: github.com/sproogen
-#         # link_text: Project Website
-#         additional_links:
-#           - title:  sproogen/modern-resume-theme
-#             icon: fab fa-github
-#             url: github.com/sproogen/modern-resume-theme
-#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#           #   icon: fab fa-github
-#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#         quote: >
-#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#         description: | # this will include new lines to allow paragraphs
-#           - Automated the process of scraping data using Beautiful Soup library, calculated historical returns, correlation of the share of the stock w.r.t other stocks and analysed risk-return performance to create a well-diversified portfolio using Markowitz model along with tools and libraries in Python and Excel. 
-#           - Successfully identified and picked stocks through market research, resulting in a well performing portfolio with returns of ~14%.
+      - layout: top-middle
+        title: Zero-Shot Common Sense Question Answering
+        additional_links:
+          - title: Zero-Shot QA Model
+            icon: fab fa-github
+            url: https://github.com/UdayYalamanchili/
+        description: |
+          - Developed a question answering model leveraging unsupervised learning techniques for zero-shot inference.
+          - Used T5 model pre-trained on the Common-Gen dataset, employing a rules-based approach to create a synthetic dataset for training, achieving 65% accuracy on the Common Sense QA dataset.
 
-          
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Microchip Technology
         link: http://microchip.com
-        # link_text: boringcompany.com
         sub_title: Senior Software Engineer
         caption: July 2023 - Present
-        quote: >
-          First job post masters degree as a senior engineer with lots of responsibilites
-        description: | # this will include new lines to allow paragraphs
-          - Developed scripts to create, edit and get status of JIRA issues using JIRA API. Added to the existing Jenkins pipeline to automatically flag and categorize the errors in the database, based on status. Reduced time spent on analysis and testing by 20%. Also programmed a GUI interface using PyQt library to quickly get the status and summary of the required issue.
-          - Developed and supported Jenkins pipelines for CI/CD processes and running the existing Java test suite for Microchip’s IDE MPLAB X. Maintained an internal webpage which can build test suites and display the results (PHP, JS, MySQL).
-          - Built a Java-based utility interfacing with MOATB (Mother of all boards) server, streamlining device search and connection processes across multiple systems. Improved testing workflow by cutting down ~15% of the time spent.
-          
+        description: |
+          - Developed an anomaly detection model using FastText and fine-tuned BERT, reducing issue reporting time by 60%. Automated log retrieval via Jenkins to generate anomaly scores on an AWS server.
+          - Containerized MPLAB X IDE with Docker for seamless integration between microcontrollers and debuggers via a Java-based GUI, enhancing device interaction through a noVNC web interface.
+          - Enhanced Jenkins CI pipelines by integrating automatic error flagging and categorization using the Jira API, optimizing workflow automation and improving testing efficiency.
+
       - layout: left
         title: Thorogood Associates
         link: https://www.thorogood.com
-        # link_text: boringcompany.com
         sub_title: Software Engineer (Data & Analytics)
         caption: July 2019 - July 2021
-        quote: >
-          First job right out of college. Went from being the junior most memeber of the team to leading teams, as a tech lead.
-        description: | # this will include new lines to allow paragraphs
-          - Served as Tech lead across 2 projects with experience in leading client meetings, communicating, and interpreting requirements to provide efficient solutions to business problems. Mentored 4 new hires in this role.
-          - Programmed robust ETL pipelines which could handle TBs of raw data. Used data processing and visualization techniques to identify patterns and trends to bring 100% visibility to Unilever’s sustainability efforts across 40 countries. Used Python, Apache Spark, T-SQL, MSBI and PowerBI.
-          - Developed a time-sheet website used by over 150 Thorogood consultants to log schedules, entries, and time-offs with ease. Used Typescript, Angular for frontend and Django, T-SQL for RESTful APIs, backend.
-          - Engineered an automated rewards system for Imperial Tobacco, cutting down time spent in rewards distribution to its partners by 70%. Performed cloud migration of the existing system onto Azure.
-          - Fixed client's faulty data pipelines to deal with irregular data loads during covid-19, increasing the resolution rate of revenue teams by 20%.
+        description: |
+          - Developed a carbon footprint prediction model for Unilever using XGBoost, improving forecast accuracy by 15% across 40 countries.
+          - Built scalable ETL pipelines in Apache Spark to process over 15TB of sustainability data, enabling real-time monitoring and delivering actionable insights through Power BI.
+          - Engineered an automated rewards system using Spark and applied K-means clustering to classify partners into performance tiers, cutting processing time by 70% and migrating the system to Azure for greater scalability.
+          - Resolved faulty data pipelines, implementing monitoring and logging mechanisms to track performance and manage irregular data loads during COVID-19, leading to a 20% increase in revenue team resolution rates.
 
-
-      - layout: left
-        title: JPMorgan Chase & Co.
-        link: https://www.jpmorganchase.com
-        # link_text: boringcompany.com
-        sub_title: Data Analyst
-        caption: July 2018 - December 2018
-        quote: >
-          Senior year internship. Gained domain knowledge in banking.
-        description: | # this will include new lines to allow paragraphs
-          - Analysed and reported operational errors (System/Manual) in 14 locations across Asia-Pacific.
-          - Collaborated with Sales, Ops on the on-boarding of clients and implementation generating revenue in millions. 
-          - Analysed and reported the trends, key statistics on volume/value of Foreign Exchange transactions of 14 APAC countries. ~80% of manual FX transactions in China were automated with the help of these reports which reduced the FX related errors over a quarter by ~90%.
-          - Real time monitoring and subsequent escalation of transaction queue of Korea market to mitigate potential client impact. 
-
-
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Arizona State University
         caption: 2021 - 2023
         sub_title: Master of Science, Computer Science
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Courses: Data Structures and Algorithms, Natural Language Processing, Machine Learning, Data Mining, Mobile Computing, Artificial Intelligence.
-       
+        description: |
+          - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence | GPA: 3.92/4
+
       - layout: left
         title: Birla Institute Of Technology & Science, Pilani
         caption: 2015 - 2019
-        sub_title: Bachelor of Engineering (Hons.) Electronics & Communication
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          - Courses: Object Oriented Programming, Operating Systems, Computer Architecture
-  
+        sub_title: Bachelor of Engineering (Hons.) in Electronics & Communication
+        description: |
+          - Courses: Data Structures and Algorithms, Object-Oriented Programming, Operating Systems
+
   - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      - Programming Languages: 
-        - C/C++, Python, Java, SQL, Typescript, MATLAB
-      - Web Technologies and Frameworks: 
-        - HTML, CSS, Angular, Flask, Django, scikit-learn, PyTorch, TensorFlow
-      - Tools:
-        - Git, AWS, Apache Spark, T-SQL, MySQL, Jenkins, Docker, Kubernetes, Azure DevOps, Android, PowerBI, MSBI
+    content: |
+      - **Programming Languages**: Python, Java, C, C++, JavaScript, SQL, MATLAB
+      - **Tools**: AWS, Azure, Spark, Docker, Kubernetes, Jenkins, Django, Flask, MySQL, MongoDB, Git, MSBI, Android
+      - **Machine Learning**: PyTorch, TensorFlow, Scikit-learn, Pandas, Regression, Time Series Analysis, Generative AI, Fine-tuning LLMs
 
-  - title: Awards & Honours 
+  - title: Awards & Honors 
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Thorogood Star Award (Feb 2020, Oct 2020), Thorogood Associates
-      - Awarded for the best performer across the company during the month.
+    content: |
+      - **Thorogood Star Award** (Feb 2020, Oct 2020) - Awarded for the best performer across the company during the month.
 
   - title: Extra Curriculars
     layout: list
-    content:  # this will include new lines to allow paragraphs
+    content:  
       - layout: left
         title: Department of Publicity & Public Relations
         caption: March 2017 - March 2018
-        sub_title: Head of Department                                                                   
-        description: | #
-         - Elected as the head of the department by the general student body for the cultural festival “Pearl”.
-         - Led a team of ~90 students achieving a 150% increase in footfall (online/offline), making the fest a huge success.
-      
+        sub_title: Head of Department
+        description: |
+          - Elected as head by the student body for the cultural festival “Pearl”, leading a team of ~90 students to achieve a 150% increase in footfall.
+
       - layout: left
         title: VFX Club
         caption: September 2016 - May 2017
-        sub_title: Head of Video Composition                                                                   
-        description: | #
-         - Held regular classes on VFX, video editing to the student community and events during college festivals.
-      
+        sub_title: Head of Video Composition
+        description: |
+          - Conducted regular classes on VFX and video editing, enhancing the skill set of the student community.
+
       - layout: left
         title: National Service Scheme     
         caption: August 2016 – August 2017
-        sub_title: Volunteer                                                                  
-        description: | #
-         - Identified and helped resolve the needs and problems of the local villages nearby our college.
-         - Actively participated in monthly clean-up and tree plantation drives. 
-      
+        sub_title: Volunteer
+        description: |
+          - Identified and resolved needs in local villages, actively participating in clean-up and tree plantation drives.
+
   - title: Languages
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      English, Telugu, Hindi
-  
+    content: |
+      - English, Telugu, Hindi
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in machine learning and software engineering some of my other interests and hobbies are:
+    content: |
+      - Alongside my interests in machine learning and software engineering, I enjoy:
       - Football
       - Gaming
       - Exploring new places!
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
