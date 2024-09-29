@@ -100,8 +100,9 @@ content:
         title: Arizona State University
         caption: 2021 - 2023
         sub_title: Master of Science, Computer Science
-        description: | 
-        - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence, Digital Video Processing, Computer Vision | GPA: 3.92/4
+        caption: GPA 3.92 / 4.0
+        description: |
+          - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence, Digital Video Processing, Computer Vision | GPA: 3.92/4
 
       - layout: left
         title: Birla Institute Of Technology & Science, Pilani
