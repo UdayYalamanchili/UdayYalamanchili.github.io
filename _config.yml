@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Uday Yalamanchili
-title: Machine Learning Engineer
+title: Software Engineer
 email: yalamanchiliudaysankar@gmail.com
 website: https://udayyalamanchili.github.io
 
@@ -85,7 +85,7 @@ content:
       - layout: left
         title: Thorogood Associates
         link: https://www.thorogood.com
-        sub_title: Software Engineer (Data & Analytics)
+        sub_title: Software Engineer
         caption: July 2019 - July 2021
         description: |
           - Developed a carbon footprint prediction model for Unilever using XGBoost, improving forecast accuracy by 15% across 40 countries. Built scalable ETL pipelines in Apache Spark to process over 15TB of sustainability data, enabling real-time monitoring and delivering actionable insights through PowerBI.
@@ -100,8 +100,8 @@ content:
         title: Arizona State University
         caption: 2021 - 2023
         sub_title: Master of Science, Computer Science
-        description: |
-          - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence, Digital Video Processing, Computer Vision | GPA: 3.92/4
+        description: | 
+        - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence, Digital Video Processing, Computer Vision | GPA: 3.92/4
 
       - layout: left
         title: Birla Institute Of Technology & Science, Pilani
