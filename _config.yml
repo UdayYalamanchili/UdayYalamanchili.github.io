@@ -77,8 +77,9 @@ content:
         sub_title: Senior Software Engineer
         caption: July 2023 - Present
         description: |
-          - Developed an anomaly detection model using FastText and fine-tuned BERT, reducing issue reporting time by 60%. Automated log retrieval via Jenkins to generate anomaly scores on an AWS server.
+          - Developed an anomaly detection model for log analysis using fastText and fine-tuned BERT for masked language modelling, reducing issue reporting time by 60%. Clustered and visualized anomalies using Matplotlib to match them with known issues, streamlining root cause identification.
           - Containerized MPLAB X IDE with Docker for seamless integration between microcontrollers and debuggers via a Java-based GUI, enhancing device interaction through a noVNC web interface.
+          - Built a Java utility to enhance device search and connection across systems, simplifying the device interaction process.
           - Enhanced Jenkins CI pipelines by integrating automatic error flagging and categorization using the Jira API, optimizing workflow automation and improving testing efficiency.
 
       - layout: left
@@ -87,9 +88,9 @@ content:
         sub_title: Software Engineer (Data & Analytics)
         caption: July 2019 - July 2021
         description: |
-          - Developed a carbon footprint prediction model for Unilever using XGBoost, improving forecast accuracy by 15% across 40 countries.
-          - Built scalable ETL pipelines in Apache Spark to process over 15TB of sustainability data, enabling real-time monitoring and delivering actionable insights through Power BI.
-          - Engineered an automated rewards system using Spark and applied K-means clustering to classify partners into performance tiers, cutting processing time by 70% and migrating the system to Azure for greater scalability.
+          - Developed a carbon footprint prediction model for Unilever using XGBoost, improving forecast accuracy by 15% across 40 countries. Built scalable ETL pipelines in Apache Spark to process over 15TB of sustainability data, enabling real-time monitoring and delivering actionable insights through PowerBI.
+          - Engineered data pipelines to enhance rewards distribution, cutting processing time by 70%. Utilized K-means clustering to classify partners into performance tiers for targeted rewards and migrated the system to Azure for greater scalability.
+          - Built a time-sheet website for over 150 consultants using Typescript and Angular for the front-end. Built scalable RESTful APIs and micro-services with Django and SQL Server for efficient data management and seamless backend integration.
           - Resolved faulty data pipelines, implementing monitoring and logging mechanisms to track performance and manage irregular data loads during COVID-19, leading to a 20% increase in revenue team resolution rates.
 
   - title: Education
@@ -100,7 +101,7 @@ content:
         caption: 2021 - 2023
         sub_title: Master of Science, Computer Science
         description: |
-          - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence | GPA: 3.92/4
+          - Courses: Machine Learning, Data Mining, Natural Language Processing, Artificial Intelligence, Digital Video Processing, Computer Vision | GPA: 3.92/4
 
       - layout: left
         title: Birla Institute Of Technology & Science, Pilani
@@ -113,7 +114,7 @@ content:
     layout: text
     content: |
       - **Programming Languages**: Python, Java, C, C++, JavaScript, SQL, MATLAB
-      - **Tools**: AWS, Azure, Spark, Docker, Kubernetes, Jenkins, Django, Flask, MySQL, MongoDB, Git, MSBI, Android
+      - **Tools**: AWS, Azure, Spark, FastAPI, Docker, Kubernetes, Jenkins, Django, Flask, MySQL, MongoDB, Git, MSBI, Android
       - **Machine Learning**: PyTorch, TensorFlow, Scikit-learn, Pandas, Regression, Time Series Analysis, Generative AI, Fine-tuning LLMs
 
   - title: Awards & Honors 
